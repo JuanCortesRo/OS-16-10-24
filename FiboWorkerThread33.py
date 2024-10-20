@@ -1,3 +1,13 @@
+#
+# Este script calcula sobre cada uno de los enteros de un vector su fibonacci usando hilos.
+#
+# Autor: John Sanabria - john.sanabria@correounivalle.edu.co
+# Fecha: 2023-01-10
+#
+# Modificado por: Johan Andres Ceballos - johan.tabarez@correounivalle.edu.co
+# Fecha: 2024-10-19
+#
+
 from threading import Thread
 from time import time
 from multiprocessing import cpu_count
@@ -34,6 +44,7 @@ def main():
     num_workers = cpu_count()
     chunk_size = len(vector33) // num_workers
     workers = []
+    print(f"Calculando {len(vector33)} fibonaccis en {num_workers} CPUs")
 
     for i in range(num_workers):
         start_idx = i * chunk_size
