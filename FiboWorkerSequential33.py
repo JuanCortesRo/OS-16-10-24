@@ -22,13 +22,15 @@ def fibo(n):
             a, b = b, a + b
         return b
 
-def fiboWorkerSecuencial():
+def fiboWorkerSequential():
     tiempo  = time()
     vector33 = [33]*144
+    print("Vector sin modificar:", list(vector33))
     for n in range(144):
         vector33[n] = fibo(vector33[n])
         print(f"El fibonacci del número  33 ubicado en la posicion {n} es {vector33[n]}")
 
     print(f"El proceso tomo {time() - tiempo} segundos")
+    print("Vector modificado:", list(vector33))
 
-fiboWorkerSecuencial()
+fiboWorkerSequential()

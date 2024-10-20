@@ -5,6 +5,9 @@
 - Johan Andrés Ceballos Tabarez | 2372229
 - Miguel Felipe Casanova Cortés | 2324909
 
+## Docente
+John Alexander Sanabria Ordoñez
+
 ## Descripción
 
 Este repositorio contiene el código para un ejercicio de programación de la clase de Sistemas Operativos. El ejercicio se enfoca en comparar el rendimiento de tres formas diferentes de calcular la secuencia de Fibonacci para cada número de un vector. El vector utilizado tiene 144 elementos, todos con el valor 33.
