@@ -28,13 +28,13 @@ A continuación la tabla para registrar el tiempo de ejecución de cada versión
   
 | Ejecución | Secuencial (s) | Thread (s) | Process (s) |
 |-----------|----------------|------------|-------------|
-| 1         |  0.0016942024230957031  |            |             |
-| 2         |  0.0008387565612792969  |            |             |
-| 3         |  0.0007622241973876953  |            |             |
-| 4         |  0.0006053447723388672  |            |             |
-| 5         |  0.0014791488647460938 |            |             |
-| **Promedio** |  0.001026709875  |            |             |
+| 1         |  0.0016942024230957031  | 0.0188 | 0.013034820556640625 |
+| 2         |  0.0008387565612792969  | 0.0175 | 0.01176309585571289 |
+| 3         |  0.0007622241973876953  | 0.0176 | 0.011940717697143555 |
+| 4         |  0.0006053447723388672  | 0.0187 | 0.012298345565795898 |
+| 5         |  0.0014791488647460938 | 0.0237 | 0.012341737747192383 |
+| **Promedio** |  0.001026709875  | 0.01836666667 | 0.01219360034 |
 
 </div>
-(las ejecuciones se realizaron en un equipo con 12 nucleos y el promedio se hizo con los 3 valores restantes al quitar el valor max y min de las 5 ejecuciones de cada script)
+(las ejecuciones se realizaron en un equipo con **12 nucleos** y el **Promedio** se hizo con los 3 valores restantes al quitar el valor max y min de las 5 ejecuciones de cada script)
 
